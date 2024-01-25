@@ -4,7 +4,6 @@ import Blog from '@/modules/blog/blog'
 import { Metadata } from 'next'
 import React from 'react'
 
-
 export const metadata: Metadata = {
   title: `Blog ${Config.exTitle}`,
   alternates: {
