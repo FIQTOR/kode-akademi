@@ -1,22 +1,22 @@
 import { Config } from '@/common/config'
 import BaseLayout from '@/common/layouts/base'
-import Home from '@/modules/home/home'
+import Contact from '@/modules/contact/contact'
 import { Metadata } from 'next'
 import React from 'react'
 
 export const metadata: Metadata = {
-  title: `Homepage ${Config.exTitle}`,
+  title: `Contact ${Config.exTitle}`,
   alternates: {
     canonical: process.env.DOMAIN,
   },
 }
 
-const HomePage = () => {
+const ContactPage = () => {
   return (
     <BaseLayout>
-      <Home />
+      <Contact />
     </BaseLayout>
   )
 }
 
-export default HomePage
+export default ContactPage
